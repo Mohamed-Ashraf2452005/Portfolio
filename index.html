@@ -13,8 +13,8 @@
     <meta property="og:description"
         content="Exploring Data Analysis, Machine Learning & Interactive Dashboards using Python, SQL & Power BI.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mohamed-ashraf2452005.github.io/Portfolio/">
-    <meta property="og:image" content="https://mohamed-ashraf2452005.github.io/Portfolio/">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:image" content="https://yourwebsite.com/portfolio-thumbnail.png">
 
     <link rel="icon" type="image/png" href="icons8-portfolio-100.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -29,6 +29,7 @@
         <div>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
+            <a href="#internships">Internships</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </div>
@@ -57,13 +58,15 @@
         </div>
     </section>
 
-
-
-
     <section id="about" class="fade-in">
         <h2 class="section-title">About Me</h2>
 
         <div class="about-container">
+
+            <div class="about-image">
+                <img src="markus-winkler-afW1hht0NSs-unsplash.jpg" alt="About Mohamed Ashraf">
+            </div>
+
             <div class="about-text">
                 <h3>Mohamed Ashraf</h3>
                 <p class="about-intro">
@@ -92,10 +95,10 @@
                     </li>
                 </ul>
 
-
                 <a href="CV.pdf" download class="btn">Download My CV</a>
             </div>
         </div>
+
     </section>
 
 
@@ -121,6 +124,82 @@
             </div>
         </div>
     </section>
+
+    <!-- Internship Section -->
+    <section id="internships">
+        <h2 class="section-title">Internships & Training</h2>
+
+        <div class="internships-container">
+
+            <!-- NTI -->
+            <div class="internship-card">
+
+                <img src="332669397_674071134402581_4884799142857696101_n.jpg" alt="NTI" class="internship-img">
+
+                <h3>Data Analysis Intern</h3>
+                <p class="org">National Telecommunication Institute (NTI) | June 2025</p>
+
+                <ul>
+                    <li>Completed 120 hours of training (90 technical + 30 freelancing & career development).</li>
+                    <li>Hands-on experience with real-world datasets.</li>
+                    <li>Worked with Excel, SQL, Python, Power BI, and Tableau.</li>
+                    <li>Developed dashboards and analytical reports.</li>
+                    <li>Improved problem-solving and teamwork skills.</li>
+                </ul>
+
+                <div class="card-buttons">
+                    <a href="images/nti-certificate.jpg" target="_blank" class="btn">View Certificate</a>
+                </div>
+
+            </div>
+
+            <!-- ITI -->
+            <div class="internship-card">
+
+                <img src="348466411_605621848162246_3158609973404221870_n.png" alt="ITI" class="internship-img">
+
+                <h3>IoT Intern</h3>
+                <p class="org">Information Technology Institute (ITI) – SpimeSenseLabs | August 2025</p>
+
+                <ul>
+                    <li>Completed 60 hours of theoretical and practical IoT training.</li>
+                    <li>Studied IoT Value Chain and real-world IoT solutions.</li>
+                    <li>Built IoT apps using MasterOfThings Platform.</li>
+                    <li>Worked with SigFox Kit, WiFi IoTik, and BLE Gateway.</li>
+                    <li>Explored wireless communication and device integration.</li>
+                </ul>
+
+                <div class="card-buttons">
+                    <a href="images/nti-certificate.jpg" target="_blank" class="btn">View Certificate</a>
+                </div>
+
+            </div>
+
+            <!-- DEPI -->
+            <div class="internship-card">
+
+                <img src="395134646_122098455926090715_7710702962729537293_n.jpg" alt="]ُ؛÷" class="internship-img">
+
+                <h3>AI & Data Science Trainee</h3>
+                <p class="org">Digital Egypt Pioneers Initiative (DEPI) – CLS | 2025 – Present</p>
+
+                <ul>
+                    <li>Prompt Engineering</li>
+                    <li>Statistics & Linear Algebra (Basics)</li>
+                    <li>Python Programming</li>
+                    <li>Data Preprocessing & Visualization</li>
+                    <li>Machine Learning Techniques (In Progress)</li>
+                </ul>
+
+                <div class="card-buttons">
+                    <a href="images/nti-certificate.jpg" target="_blank" class="btn">View Certificate</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
 
     <section id="projects" class="fade-in">
         <h2 class="section-title">Featured Projects</h2>
@@ -273,7 +352,7 @@
     <footer>
         <p>© 2026 Mohamed Ashraf | Data Analyst Portfolio</p>
     </footer>
- <script>
+    <script>
         // Scroll animations
         const faders = document.querySelectorAll('.fade-in');
         const appearOptions = { threshold: 0.1, rootMargin: "0px 0px -50px 0px" };
